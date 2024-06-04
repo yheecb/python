@@ -22,3 +22,7 @@ write()를사용할때줄바꿈문자(\n)을포함하면여러줄입력이가능
 
 import os 
 os.path.exists() 
+```
+create table userTable(id char(4), userNamechar(15), email char(15), birthYearint);
+Insert into userTableValues('john', 'john Bann', 'john@naver.com', 1990
+```
