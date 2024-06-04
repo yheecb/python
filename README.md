@@ -58,3 +58,12 @@ while True:
         break
     print(f'ID: {row[0]}, Name: {row[1]}, Age: {row[2]}')
 ```
+---
+맷플롯립
+
+```
+import matplotlib.pyplot as plt
+plt.legend(loc= "upper.left') #왜 legend가 했더니 전설을 뜻하는 legend가아니고 '범례'를 뜻하는거
+```
+import numpy /// numpy란? 다차원 배열 객체와 배열을 다루는 다양한 함수를 제공
+
