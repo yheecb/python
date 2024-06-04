@@ -38,3 +38,23 @@ select id, birthyear from usertable where birthyear <=2000; #id, birthyear 열 �
 select * from usertable order by birthyear asc;
 select * from usertable order by birthyear desc;
 ```
+
+3. 파이썬에서 데이터 입력하는 코딩 순서
+```
+import sqlite3
+con = splite3.connect()
+cur = con.corsur() #실행,실행된 결과를돌려받는 커서
+cur.execute("CREATE TABLE userTable (id char(4), userName char(15), email char(15), birthYear int)")
+cur.execute("INSERT INTO userTable VALUES('john', 'John bann', 'john@naver,com', 1900)")
+``` 
+
+fetchone() 함수
+
+는 파이썬의 데이터베이스 API에서 사용되는 함수 중 하나로, SQL 쿼리의 결과에서 한 행(row)을 가져오는 역할을 합니다.
+```
+while True:
+    row = cursor.fetchone()
+    if row is None:
+        break
+    print(f'ID: {row[0]}, Name: {row[1]}, Age: {row[2]}')
+```
