@@ -21,8 +21,20 @@ write()를사용할때줄바꿈문자(\n)을포함하면여러줄입력이가능
 문자열리스트를쓰려면writelines()를사용
 
 import os 
-os.path.exists() 
+os.path.exists()
+---
+#데이터 베이스 구축
+1.데이터 생성
 ```
 create table userTable(id char(4), userNamechar(15), email char(15), birthYearint);
 Insert into userTableValues('john', 'john Bann', 'john@naver.com', 1990
+```
+2.데이터 뽑아내기
+```
+select id, birthyear from usertable where birthyear <=2000; #id, birthyear 열 뽑아내기
+```
+2.1 데이터 정렬
+```
+select * from usertable order by birthyear asc;
+select * from usertable order by birthyear desc;
 ```
