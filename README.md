@@ -50,7 +50,7 @@ cur.execute("INSERT INTO userTable VALUES('john', 'John bann', 'john@naver,com',
 
 fetchone() 함수
 
-는 파이썬의 데이터베이스 API에서 사용되는 함수 중 하나로, SQL 쿼리의 결과에서 한 행(row)을 가져오는 역할을 합니다.
+는 파이썬의 데이터베이스 API에서 사용되는 함수 중 하나로, SQL 쿼리의 결과에서 한 행(row)을 가져오는 역할.
 ```
 while True:
     row = cursor.fetchone()
@@ -69,5 +69,7 @@ import numpy /// numpy란? 다차원 배열 객체와 배열을 다루는 다양
 
 'k', 'r--', 'g' 그래프 색상 지정. k가 블랙인줄 몰랏음. 더 다양한 예시 추가예정.
 
-np.random.randn(10) 크기가 10인 배
+np.random.randn(10) 크기가 10인 배열
+
+plt.axis() x축 y축 범위 지정 ex) ``` plt.axis(0,10,0,20)```
 
