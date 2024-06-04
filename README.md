@@ -67,3 +67,7 @@ plt.legend(loc= "upper.left') #왜 legend가 했더니 전설을 뜻하는 legen
 ```
 import numpy /// numpy란? 다차원 배열 객체와 배열을 다루는 다양한 함수를 제공
 
+'k', 'r--', 'g' 그래프 색상 지정. k가 블랙인줄 몰랏음. 더 다양한 예시 추가예정.
+
+np.random.randn(10) 크기가 10인 배
+
