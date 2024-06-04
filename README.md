@@ -20,4 +20,5 @@ writelines() : 주어진문자열리스트를파일에작성
 write()를사용할때줄바꿈문자(\n)을포함하면여러줄입력이가능하고,
 문자열리스트를쓰려면writelines()를사용
 
-
+import os 
+os.path.exists() 
